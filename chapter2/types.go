@@ -9,8 +9,9 @@ import "fmt"
 var x int
 
 //x = 20 //não é permitido pois uma var inicializada em escopo de package só pode ter valor atribuido dentro de um escopo de bloco
+// primitive types int e suas variações, uint e suas variações, string, bool, float 2 variações, complex 2 variações
 
 func main() {
-	x = 20
+	x = 20 //permitido
 	fmt.Printf("%v, %T\n", x, x)
 }
